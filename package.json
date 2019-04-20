@@ -1,0 +1,20 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Movie API with Graphql",
+  "repository": "https://github.com/ineggapps/movieql",
+  "author": "Inegg Apps <inegg.apps@gmail.com>",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
